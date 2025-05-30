@@ -1,27 +1,9 @@
 - Data Science project
 - Data analysis of GDP of all countries
 
-
-The dataset has data of 227 countries(rows) and having 20 columns
-Columns:
-['Country', 'Region', 'Population', 'Area (sq. mi.)','Pop. Density (per sq. mi.)', 
-'Coastline (coast/area ratio)','Net migration', 'Infant mortality (per 1000 births)','GDP ($ per capita)', 'Literacy (%)', 
-'Phones (per 1000)', 'Arable (%)','Crops (%)', 'Other (%)', 'Climate', 
-'Birthrate', 'Deathrate','Agriculture', 'Industry', 'Service']
-
-
-__________________________________________________________________________________________________________________________
-here are the first two rows of the dataset(world.csv) for understanding the type of data in the dataset
-
-Country	Region	Population	Area (sq. mi.)	Pop. Density (per sq. mi.)	Coastline (coast/area ratio)	Net migration	Infant mortality (per 1000 births)	GDP ($ per capita)	Literacy (%)	Phones (per 1000)	Arable (%)	Crops (%)	Other (%)	Climate	Birthrate	Deathrate	Agriculture	Industry	Service
-
-Afghanistan	ASIA (EX. NEAR EAST)	31056997	647500	48.0	0.00	23.06	163.07	700.0	36.0	3.2	12.13	0.22	87.65	1.0	46.60	20.34	0.380	0.240	0.380
-
-Albania	EASTERN EUROPE	3581655	28748	124.6	1.26	-4.93	21.52	4500.0	86.5	71.2	21.09	4.42	74.49	3.0	15.11	5.22	0.232	0.188	0.579
-
-__________________________________________________________________________________________________________________________
-
-here we have the following code for GDP data analysis and modeling:
+The dataset has data of 227 countries(rows) and having 20 columns(factors)
+______________________________________________________________________________________________________________________
+Here we have the following code for GDP data analysis and modeling:
 
 ######################################################################################################
 # Importing the required Python libraries
@@ -277,33 +259,4 @@ ax = plot_data.plot.bar(stacked=True,figsize=(10,6))
 ax.legend(bbox_to_anchor=(1, 1))
 plt.show()
 
-
 ######################################################################################################
-
-- Remove all the potential errors from this code
-
-######################################################################################################
-
-
-
-Make a project that takes input from user (country name) and will produce all the insights and visualization for that country from the csv file that we have at the backend
-
-it should also give the visualizations comparing its data from the rest of the world 
-
-it should also have the GDP prediction mechanism (backend) that will predict GDP (from backend data) and will be shown above all those visualizations after the taking same userinput (country name)
-
-create a UI (frontend) and use beautiful CSS.
-
-also explain me all the steps required to smoothly run this project in detail (frontend and backend)
-
-
-C:\Users\Username\OneDrive\Desktop\gdp_prediction_project\
-│
-├── backend
-│   ├── app.py
-│   └── world.csv
-│
-└── frontend
-    ├── index.html
-    ├── styles.css
-    └── script.js
