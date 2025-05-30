@@ -16,8 +16,10 @@ It's recommended to use a virtual environment to manage dependencies. If you hav
 
 ```bash
 python -m venv gdp-env
+
 # On Windows
 gdp-env\Scripts\activate
+
 # On macOS/Linux
 source gdp-env/bin/activate
 ```
@@ -37,9 +39,9 @@ These packages are essential for data manipulation and visualization.
 To execute the analysis script, run:
 
 ```bash
-python analysis.py
-This script processes the dataset and generates visualizations to help interpret the economic data.
+python app.py
 ```
+This script processes the dataset and generates visualizations to help interpret the economic data.
 
 # 📁 Project Structure
 
