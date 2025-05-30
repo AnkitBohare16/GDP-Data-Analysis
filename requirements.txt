@@ -1,0 +1,6 @@
+# The specified library versions are compatible with Python 3.11 and 3.12.
+flask==3.0.2
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+numpy==1.26.4
